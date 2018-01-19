@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - One Page Wonder v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/one-page-wonder)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 body {
@@ -63,6 +63,12 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
+  background: url("background.jpg");
+  background-size: cover;
+}
+
+header.masthead h1, header.masthead h2 {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 header.masthead .masthead-content {
@@ -75,7 +81,7 @@ header.masthead .masthead-content .masthead-heading {
 }
 
 header.masthead .masthead-content .masthead-subheading {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 header.masthead .bg-circle {
@@ -122,7 +128,7 @@ header.masthead .bg-circle-4 {
     font-size: 6rem;
   }
   header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+    font-size: 2rem;
   }
 }
 
